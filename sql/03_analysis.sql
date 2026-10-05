@@ -118,3 +118,35 @@ SELECT
     , 2) AS growth_persen
 FROM sales_per_year_cat
 ORDER BY category, tahun;
+
+
+-- =====================================================================
+-- E. POLA MUSIMAN (seasonality)
+--    Melengkapi analisis tren: selain tumbuh tiap tahun, apakah ada
+--    bulan tertentu yang selalu ramai?
+-- =====================================================================
+
+-- E1. Total sales per BULAN (gabung semua tahun) -> bulan apa paling ramai?
+--     Hasil data ini: puncak di November, lalu Desember (musim akhir tahun);
+--     terendah di Januari.
+SELECT
+    MONTH(o.order_date)     AS bulan,
+    MONTHNAME(o.order_date) AS nama_bulan,
+    SUM(oi.sales)           AS total_sales
+FROM order_items oi
+JOIN orders o ON o.order_id = oi.order_id
+GROUP BY MONTH(o.order_date), MONTHNAME(o.order_date)
+ORDER BY bulan;
+
+-- E2. Total sales per BULAN per TAHUN (4 tahun x 12 bulan = 48 baris)
+--     -> untuk melihat apakah pola musiman konsisten tiap tahun.
+--     Cocok dijadikan line chart di Tableau (sumbu X = waktu, 1 garis per tahun).
+SELECT
+    YEAR(o.order_date)      AS tahun,
+    MONTH(o.order_date)     AS bulan,
+    MONTHNAME(o.order_date) AS nama_bulan,
+    SUM(oi.sales)           AS total_sales
+FROM order_items oi
+JOIN orders o ON o.order_id = oi.order_id
+GROUP BY YEAR(o.order_date), MONTH(o.order_date), MONTHNAME(o.order_date)
+ORDER BY tahun, bulan;
