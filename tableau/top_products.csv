@@ -1,0 +1,34 @@
+product_id,product_name,category,total_unit,total_sales,total_profit
+PROD-0027,Desktop Tower,Technology,935,511096.31,77978.36
+PROD-0031,USB-C Hub,Technology,829,500993.81,78313.44
+PROD-0025,Headset Pro,Technology,775,484154.78,68366.27
+PROD-0026,Laptop Pro 14,Technology,911,481561.78,75982.03
+PROD-0033,Document Scanner,Technology,787,471979.82,67612.77
+PROD-0024,Office Desk Phone,Technology,813,382064.87,55253.05
+PROD-0030,Mechanical Keyboard,Technology,804,368859.32,54985.22
+PROD-0032,Laser Printer,Technology,754,349098.7,53113.89
+PROD-0023,Smartphone X,Technology,829,307547.46,48245.79
+PROD-0029,Wireless Mouse,Technology,855,298924.02,45251.45
+PROD-0028,Mini PC,Technology,845,238272.61,36903.94
+PROD-0011,Picture Frame,Furniture,914,215513.82,33873.64
+PROD-0008,Metal Shelf Unit,Furniture,862,200912.84,31820.4
+PROD-0002,Dining Chair Oak,Furniture,852,197913.39,29530.41
+PROD-0006,Coffee Table,Furniture,884,177416.7,27071.25
+PROD-0004,Conference Table,Furniture,817,172088.52,25357.07
+PROD-0005,Study Desk,Furniture,840,131597.53,20020.45
+PROD-0003,Folding Chair,Furniture,755,111902.64,17296.0
+PROD-0009,Desk Lamp,Furniture,929,109782.68,17248.08
+PROD-0001,Office Chair Ergo,Furniture,872,108808.0,16517.42
+PROD-0007,Wooden Bookcase,Furniture,812,71349.82,10478.56
+PROD-0010,Wall Clock,Furniture,777,70861.87,10799.66
+PROD-0020,Colored Pencils,Office Supplies,823,25459.52,3841.74
+PROD-0015,Lever Arch Binder,Office Supplies,849,24646.52,3755.11
+PROD-0016,Ring Binder,Office Supplies,894,21238.71,3151.49
+PROD-0018,File Cabinet,Office Supplies,955,19827.16,2762.97
+PROD-0021,Stapler,Office Supplies,840,17506.66,2761.1
+PROD-0022,Paper Clips Box,Office Supplies,881,14312.93,2320.89
+PROD-0017,Storage Box,Office Supplies,885,14051.01,2098.34
+PROD-0014,Notebook A5,Office Supplies,865,13942.29,2191.68
+PROD-0019,Marker Set,Office Supplies,1038,13640.71,2090.47
+PROD-0012,A4 Paper Ream,Office Supplies,964,11190.54,1633.82
+PROD-0013,Sticky Notes,Office Supplies,961,10965.34,1654.46

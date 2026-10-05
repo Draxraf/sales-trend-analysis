@@ -1,0 +1,13 @@
+category,year,total_sales,prev_year_sales,growth_percent
+Furniture,2014,309050.48,,
+Furniture,2015,359675.58,309050.48,16.38
+Furniture,2016,414844.0,359675.58,15.34
+Furniture,2017,484577.75,414844.0,16.81
+Office Supplies,2014,38082.13,,
+Office Supplies,2015,42008.0,38082.13,10.31
+Office Supplies,2016,47323.79,42008.0,12.65
+Office Supplies,2017,59367.47,47323.79,25.45
+Technology,2014,459692.88,,
+Technology,2015,730009.53,459692.88,58.8
+Technology,2016,1173164.18,730009.53,60.71
+Technology,2017,2031686.89,1173164.18,73.18
